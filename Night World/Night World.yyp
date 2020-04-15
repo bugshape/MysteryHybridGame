@@ -290,7 +290,7 @@
             "Key": "28bd339e-d18e-47b6-926f-7dbb99f240ea",
             "Value": {
                 "id": "1818693a-7088-4122-b909-b6f6893c9b5a",
-                "resourcePath": "objects\/obj_hero\/obj_hero.yy",
+                "resourcePath": "objects\\o_ghost\\o_ghost.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -484,14 +484,6 @@
                 "id": "b644e6c9-2431-485e-a2ac-02b8a2e35ad3",
                 "resourcePath": "sprites\/spr_enemyBullet\/spr_enemyBullet.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "4214ed49-20cb-4280-8304-a44db815d263",
-            "Value": {
-                "id": "c075bac7-bac2-4682-8427-cf0537ef7f88",
-                "resourcePath": "objects\\o_Ghost\\o_Ghost.yy",
-                "resourceType": "GMObject"
             }
         },
         {
