@@ -1,7 +1,7 @@
 {
     "id": "6666cfe7-92d5-4b6e-87b1-7c8be34cd6bf",
     "modelName": "GMFont",
-    "mvc": "1.0",
+    "mvc": "1.1",
     "name": "fnt_score",
     "AntiAlias": 0,
     "TTFName": "",
@@ -10,6 +10,7 @@
     "charset": 0,
     "first": 0,
     "fontName": "Bungee",
+    "glyphOperations": 0,
     "glyphs": [
         {
             "Key": 32,
@@ -1452,13 +1453,16 @@
             }
         }
     ],
-    "image": null,
+    "hinting": 0,
     "includeTTF": false,
+    "interpreter": 0,
     "italic": false,
     "kerningPairs": [
         
     ],
     "last": 0,
+    "maintainGms1Font": false,
+    "pointRounding": 0,
     "ranges": [
         {
             "x": 32,
