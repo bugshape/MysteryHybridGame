@@ -7,8 +7,8 @@ var bounce_ = argument1;
 
 
 /// Collisions x and y 
-if place_meeting(x+speed_[h], y, obj_solid) {
-	while !place_meeting(x+sign(speed_[h]), y, obj_solid) {
+if place_meeting(x+speed_[h], y, o_brick1) {
+	while !place_meeting(x+sign(speed_[h]), y, o_brick1) {
 		x += sign(speed_[h]);
 	}
 	if bounce_ > 0 {
@@ -17,8 +17,8 @@ if place_meeting(x+speed_[h], y, obj_solid) {
 		speed_[@ h] = 0;
 	}
 }
-else if place_meeting(x+speed_[h], y, obj_movingPlatform) {
-	while !place_meeting(x+sign(speed_[h]), y, obj_movingPlatform) {
+else if place_meeting(x+speed_[h], y, o_brick2) {
+	while !place_meeting(x+sign(speed_[h]), y, o_brick2) {
 		x += sign(speed_[h]);
 	}
 	if bounce_ > 0 {
@@ -27,8 +27,8 @@ else if place_meeting(x+speed_[h], y, obj_movingPlatform) {
 		speed_[@ h] = 0;
 	}
 }
-else if place_meeting(x+speed_[h], y, obj_ghostPlatform) {
-	while !place_meeting(x+sign(speed_[h]), y, obj_ghostPlatform) {
+else if place_meeting(x+speed_[h], y, o_brick3) {
+	while !place_meeting(x+sign(speed_[h]), y, o_brick3) {
 		x += sign(speed_[h]);
 	}
 	if bounce_ > 0 {
@@ -41,8 +41,8 @@ x += speed_[h];
 
 
 
-if place_meeting(x, y+speed_[v], obj_solid) {
-	while !place_meeting(x, y+sign(speed_[v]), obj_solid) {
+if place_meeting(x, y+speed_[v], o_brick1) {
+	while !place_meeting(x, y+sign(speed_[v]), o_brick1) {
 		y += sign(speed_[v]);
 	}
 	if bounce_ > 0 {
@@ -51,8 +51,8 @@ if place_meeting(x, y+speed_[v], obj_solid) {
 		speed_[@ v] = 0;
 	}
 }
-else if place_meeting(x, y+speed_[v], obj_movingPlatform) {
-	while !place_meeting(x, y+sign(speed_[v]), obj_movingPlatform) {
+else if place_meeting(x, y+speed_[v], o_brick2) {
+	while !place_meeting(x, y+sign(speed_[v]), o_brick2) {
 		y += sign(speed_[v]);
 	}
 	if bounce_ > 0 {
@@ -61,8 +61,8 @@ else if place_meeting(x, y+speed_[v], obj_movingPlatform) {
 		speed_[@ v] = 0;
 	}
 }
-else if place_meeting(x, y+speed_[v], obj_ghostPlatform) {
-	while !place_meeting(x, y+sign(speed_[v]), obj_ghostPlatform) {
+else if place_meeting(x, y+speed_[v], o_brick3) {
+	while !place_meeting(x, y+sign(speed_[v]), o_brick3) {
 		y += sign(speed_[v]);
 	}
 	if bounce_ > 0 {

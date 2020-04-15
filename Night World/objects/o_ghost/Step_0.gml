@@ -39,7 +39,7 @@ if keyboard_check(ord("S")) {
 	}
 
 	//Jump
-	if !place_meeting(x, y+1, obj_solid) {
+	if !place_meeting(x, y+1, o_brick1) {
 		speed_[v] += gravity_; 
 		image_speed = 0;
 		image_index = 1; //image used when jumping
@@ -52,7 +52,7 @@ if keyboard_check(ord("S")) {
 		}
 	}
 	//jump moving platform
-	if !place_meeting(x, y+1, obj_movingPlatform) {
+	if !place_meeting(x, y+1, o_brick2) {
 		speed_[v] += gravity_; 
 		//image_speed = 0;
 		//image_index = 1; //image used when jumping
@@ -65,7 +65,7 @@ if keyboard_check(ord("S")) {
 		}
 	}
 	//jump ghost platform
-	if !place_meeting(x, y+1, obj_ghostPlatform) {
+	if !place_meeting(x, y+1, o_brick3) {
 		speed_[v] += gravity_; 
 		//image_speed = 0;
 		//image_index = 1; //image used when jumping
@@ -84,13 +84,13 @@ move(speed_, 0);
 
 ///Animation stuff
 //Check for Landing
-if place_meeting(x, y+1, obj_solid) and !place_meeting(x, yprevious+1, obj_solid) {
+if place_meeting(x, y+1, o_brick1) and !place_meeting(x, yprevious+1, o_brick1) {
 	xScale = image_xscale*1.2; //wider
 	yScale = image_yscale*.9; //shorter
 	audio_play_sound(aud_heroLand, 3, false);
 
 }
-if place_meeting(x, y+1, obj_solid) and !place_meeting(x, yprevious+1, obj_solid) {
+if place_meeting(x, y+1, o_brick1) and !place_meeting(x, yprevious+1, o_brick1) {
 	xScale = image_xscale*1.2; //wider
 	yScale = image_yscale*.9; //shorter
 	audio_play_sound(aud_heroLand, 3, false);

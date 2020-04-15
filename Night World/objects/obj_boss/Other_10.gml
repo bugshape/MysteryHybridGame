@@ -1,8 +1,8 @@
 /// @description Movement
 
 //move towards hero
-if instance_exists(obj_hero) {
-	//var dir = point_direction(x, y, obj_hero.x, obj_hero.y);
+if instance_exists(o_Ghost) {
+	//var dir = point_direction(x, y, o_Ghost.x, o_Ghost.y);
 	//speed_[h] += lengthdir_x(acceleration_, dir);
 	//speed_[v] += lengthdir_y(acceleration_, dir);
 	//if point_distance(0, 0, speed_[h], speed_[v]) > maxSpeed {
@@ -18,7 +18,7 @@ if instance_exists(obj_hero) {
 	}
 
 	//Switch to Attack
-	if distance_to_object(obj_hero) < 2000 {
+	if distance_to_object(o_Ghost) < 2000 {
 		enemyFire_bullet(obj_enemyBullet_Boss, spr_enemyBoss);
 	}
 }

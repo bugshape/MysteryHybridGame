@@ -1,6 +1,6 @@
 /// @description 
 
-if (place_meeting(x, y, obj_hero)) {
+if (place_meeting(x, y, o_Ghost)) {
 	global.checkpoint = id;
 	global.checkpointx = x;
 	global.checkpointy = y; 
