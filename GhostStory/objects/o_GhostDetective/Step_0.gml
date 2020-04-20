@@ -1,6 +1,6 @@
 //Get Player Input
-key_left = keyboard_check(vk_left);
-key_right = keyboard_check(vk_right);
+key_left = keyboard_check(ord("A"));
+key_right = keyboard_check(ord("D"));
 key_jump = keyboard_check_pressed(vk_space);
 
 //Calculate Movement
@@ -78,5 +78,13 @@ else if (place_meeting(x,y+vsp,o_brick3))
 }
 y = y + vsp;
 
+//Flip image
+if (keyboard_check(ord("A"))) && (image_xscale = 1)
+{
+	image_xscale = -1;
+}
 
-
+if (keyboard_check(ord("D"))) && (image_xscale = -1)
+{
+	image_xscale = 1;
+}
