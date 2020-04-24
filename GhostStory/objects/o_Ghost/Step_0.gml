@@ -49,6 +49,14 @@ else if (place_meeting(x+hsp,y,o_brick3))
 	}
 	hsp = 0;
 }
+else if (place_meeting(x+hsp,y,o_inviswall))
+{
+	while (!place_meeting(x+sign(hsp),y,o_inviswall))
+	{
+		x = x + sign(hsp);
+	}
+	hsp = 0;
+}
 x = x + hsp;
 
 //Vertical Collision
@@ -71,6 +79,14 @@ else if (place_meeting(x,y+vsp,o_brick2))
 else if (place_meeting(x,y+vsp,o_brick3))
 {
 	while (!place_meeting(x,y+sign(vsp),o_brick3))
+	{
+		y = y + sign(vsp);
+	}
+	vsp = 0;
+}
+else if (place_meeting(x,y+vsp,o_inviswall))
+{
+	while (!place_meeting(x,y+sign(vsp),o_inviswall))
 	{
 		y = y + sign(vsp);
 	}
