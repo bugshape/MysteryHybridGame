@@ -7,16 +7,24 @@ if i_d == unlock
       {
       if ds_map_find_value(async_load, "result") != ""
          {
-			//transition to room one
+			//transition to  one
 			if (ds_map_find_value(async_load, "result") == "2594") {
 				room_goto(r_Level2A);
 			} 
-			//transition to room two
+			//transition to level two
 			else if (ds_map_find_value(async_load, "result") == "gun") {
-				room_goto(r_MainMenu);
+				room_goto(r_Level3A);
+			} 
+			//transition to level three
+			else if (ds_map_find_value(async_load, "result") == "red") {
+				room_goto(r_Level4A);
+			} 
+			//transition to win screen 
+			else if (ds_map_find_value(async_load, "result") == "three") {
+				room_goto(r_WinScreen);
 			} 
 			else {
-				show_message("Invalid code, try again");	
+				show_message("Incorrect Passcode. Please try again.");	
 			}
          }
       }

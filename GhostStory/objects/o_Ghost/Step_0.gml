@@ -4,7 +4,7 @@ key_right = keyboard_check(vk_right);
 key_jump = keyboard_check_pressed(vk_space);
 
 //Calculate Movement
-var move = key_right - key_left;
+var move = (key_right - key_left) * 2;
 
 hsp = move * walksp;
 
@@ -49,9 +49,9 @@ else if (place_meeting(x+hsp,y,o_brick3))
 	}
 	hsp = 0;
 }
-else if (place_meeting(x+hsp,y,o_inviswall))
+else if (place_meeting(x+hsp,y,o_grass))
 {
-	while (!place_meeting(x+sign(hsp),y,o_inviswall))
+	while (!place_meeting(x+sign(hsp),y,o_grass))
 	{
 		x = x + sign(hsp);
 	}
@@ -84,9 +84,9 @@ else if (place_meeting(x,y+vsp,o_brick3))
 	}
 	vsp = 0;
 }
-else if (place_meeting(x,y+vsp,o_inviswall))
+else if (place_meeting(x,y+vsp,o_grass))
 {
-	while (!place_meeting(x,y+sign(vsp),o_inviswall))
+	while (!place_meeting(x,y+sign(vsp),o_grass))
 	{
 		y = y + sign(vsp);
 	}
