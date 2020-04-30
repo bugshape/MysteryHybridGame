@@ -719,6 +719,14 @@
             }
         },
         {
+            "Key": "6d4684a3-2285-4241-bfcf-c6d1d4b88dc3",
+            "Value": {
+                "id": "0428d2a6-1b34-4dbc-8008-7e219b0ec690",
+                "resourcePath": "sounds\\detective_music\\detective_music.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "6e87e381-fac4-496e-89c6-011c3044bad6",
             "Value": {
                 "id": "a3a86f9b-c281-4e08-aaa7-cf5b68ee96e3",
@@ -1447,6 +1455,14 @@
             }
         },
         {
+            "Key": "cf3432da-8320-47d6-9fd3-a396bba69089",
+            "Value": {
+                "id": "61812377-9b1f-46ed-b0f7-71c13a996263",
+                "resourcePath": "objects\\o_mainMenuMusic\\o_mainMenuMusic.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d0230165-39b9-40e6-bac8-12afc7735efa",
             "Value": {
                 "id": "d1027e88-0e10-48ec-8d8d-0ed4dcbb74a6",
@@ -1500,6 +1516,14 @@
                 "id": "cb86a22e-d793-46ee-8a9b-524d9eeb9891",
                 "resourcePath": "sprites\\lockers\\lockers.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "da8d13aa-63cc-4079-8399-5f945d10b34d",
+            "Value": {
+                "id": "eb4903c1-d916-4ee7-8689-833a6846de6a",
+                "resourcePath": "sounds\\Main_Menu_BGM\\Main_Menu_BGM.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -1676,6 +1700,14 @@
                 "id": "3491d6a4-87e6-4ee6-8659-ef052332ab04",
                 "resourcePath": "rooms\\r_Level2B\\r_Level2B.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "f2a34166-30b7-4478-b229-ccad47d6375e",
+            "Value": {
+                "id": "48a2826f-2adc-42f2-97e8-2f7faf73bcdb",
+                "resourcePath": "objects\\o_clueList\\o_clueList.yy",
+                "resourceType": "GMObject"
             }
         },
         {

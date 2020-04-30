@@ -94,3 +94,13 @@ else if (place_meeting(x,y+vsp,o_grass))
 }
 y = y + vsp;
 
+//Flip image
+if (keyboard_check(ord("A"))) && (image_xscale = 1)
+{
+	image_xscale = -1;
+}
+
+if (keyboard_check(ord("D"))) && (image_xscale = -1)
+{
+	image_xscale = 1;
+}
