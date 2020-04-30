@@ -57,6 +57,22 @@ else if (place_meeting(x+hsp,y,o_grass))
 	}
 	hsp = 0;
 }
+else if (place_meeting(x+hsp,y,o_DeadGrass))
+{
+	while (!place_meeting(x+sign(hsp),y,o_DeadGrass))
+	{
+		x = x + sign(hsp);
+	}
+	hsp = 0;
+}
+else if (place_meeting(x+hsp,y,o_LightGrass))
+{
+	while (!place_meeting(x+sign(hsp),y,o_LightGrass))
+	{
+		x = x + sign(hsp);
+	}
+	hsp = 0;
+}
 x = x + hsp;
 
 //Vertical Collision
@@ -87,6 +103,22 @@ else if (place_meeting(x,y+vsp,o_brick3))
 else if (place_meeting(x,y+vsp,o_grass))
 {
 	while (!place_meeting(x,y+sign(vsp),o_grass))
+	{
+		y = y + sign(vsp);
+	}
+	vsp = 0;
+}
+else if (place_meeting(x,y+vsp,o_DeadGrass))
+{
+	while (!place_meeting(x,y+sign(vsp),o_DeadGrass))
+	{
+		y = y + sign(vsp);
+	}
+	vsp = 0;
+}
+else if (place_meeting(x,y+vsp,o_LightGrass))
+{
+	while (!place_meeting(x,y+sign(vsp),o_LightGrass))
 	{
 		y = y + sign(vsp);
 	}

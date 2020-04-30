@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "19e0ee44-f7dc-4e90-800e-cb6a7068ca7e",
+            "Value": {
+                "id": "d6e9ce74-2d9f-4168-8f74-9984f8a78583",
+                "resourcePath": "fonts\\f_pixelfont\\f_pixelfont.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "1a8b6190-82ba-41e9-845f-4670671c69c2",
             "Value": {
                 "id": "2c3c5c58-2762-45bc-8ee6-12838bb05e4d",
@@ -308,6 +316,14 @@
                 "id": "30002a27-1143-4d75-b09b-2d81f25383b7",
                 "resourcePath": "sprites\\s_fence\\s_fence.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2c868b43-db92-4a4d-b038-e346b9aceae1",
+            "Value": {
+                "id": "be02872a-623c-4e16-9332-6e29ee1bcae9",
+                "resourcePath": "scripts\\DrawSetText\\DrawSetText.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -575,6 +591,14 @@
             }
         },
         {
+            "Key": "58ba43f9-6b32-4503-8cf4-01b4cf985e88",
+            "Value": {
+                "id": "cdeaf2f1-7aab-4e51-8ca0-ef45ceabdf57",
+                "resourcePath": "objects\\o_TextB\\o_TextB.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5ac45812-c90b-4be8-bef5-f051e99728ee",
             "Value": {
                 "id": "bdb4beb8-266b-4c9e-9bbc-023c8040cba6",
@@ -635,6 +659,14 @@
             "Value": {
                 "id": "71525ce6-2140-4024-b238-886353ec3582",
                 "resourcePath": "sprites\\calendar\\calendar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "63ceb7d0-a53a-4cfe-871e-73b17cbd4eb5",
+            "Value": {
+                "id": "84deccc1-d999-4596-9c9d-a41caa82d83a",
+                "resourcePath": "sprites\\s_marker\\s_marker.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1599,6 +1631,14 @@
             }
         },
         {
+            "Key": "e4fd85c4-45e5-4d7b-ba23-0547e7db4f27",
+            "Value": {
+                "id": "d0c9d561-fee6-45a1-aa23-9292f92d46a9",
+                "resourcePath": "objects\\o_TextA\\o_TextA.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "e57a2eb1-785e-48a4-9b0a-5c012de6ed7d",
             "Value": {
                 "id": "3f0efb6b-61a0-4cf4-ba29-e889364b03ac",
@@ -1768,7 +1808,7 @@
         }
     ],
     "script_order": [
-        
+        "2c868b43-db92-4a4d-b038-e346b9aceae1"
     ],
     "tutorial": ""
 }

@@ -16,7 +16,9 @@
         "2f2c1225-3073-40ec-a151-bb7ccc07d3b2",
         "c4c1b06b-0adf-4965-a041-514f13119675",
         "895de229-b311-4b11-a8a1-13a6143fb57b",
-        "388f345d-9968-4d2e-8028-7cd16b168abc"
+        "388f345d-9968-4d2e-8028-7cd16b168abc",
+        "e4fd85c4-45e5-4d7b-ba23-0547e7db4f27",
+        "58ba43f9-6b32-4503-8cf4-01b4cf985e88"
     ],
     "filterType": "GMObject",
     "folderName": "Invisibles",
