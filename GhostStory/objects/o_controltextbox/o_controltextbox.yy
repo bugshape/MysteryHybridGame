@@ -1,19 +1,10 @@
 {
-    "id": "895de229-b311-4b11-a8a1-13a6143fb57b",
+    "id": "212034e6-d332-4dfe-a6bd-216d04d9b4f1",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_Access_Controls",
+    "name": "o_controltextbox",
     "eventList": [
-        {
-            "id": "15b74211-2596-432d-92d2-1f7a7fc58aee",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 77,
-            "eventtype": 9,
-            "m_owner": "895de229-b311-4b11-a8a1-13a6143fb57b"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "4b3622e0-2b6d-45fb-a315-b1cb36d3fb70",
     "visible": true
 }

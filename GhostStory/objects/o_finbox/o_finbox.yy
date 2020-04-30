@@ -1,19 +1,10 @@
 {
-    "id": "895de229-b311-4b11-a8a1-13a6143fb57b",
+    "id": "a1e1978c-5d87-4e4a-a0db-a57aeb03ad82",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_Access_Controls",
+    "name": "o_finbox",
     "eventList": [
-        {
-            "id": "15b74211-2596-432d-92d2-1f7a7fc58aee",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 77,
-            "eventtype": 9,
-            "m_owner": "895de229-b311-4b11-a8a1-13a6143fb57b"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "00000000-0000-0000-0000-000000000000",
+    "spriteId": "b100de57-3114-4dc4-abcb-974ed6035327",
     "visible": true
 }
