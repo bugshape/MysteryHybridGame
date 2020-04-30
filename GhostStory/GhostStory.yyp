@@ -1447,6 +1447,14 @@
             }
         },
         {
+            "Key": "d65f9f20-f22e-4ef8-951a-9ff10d6fea41",
+            "Value": {
+                "id": "f8600442-6b08-4d9c-8094-41af4a2270f3",
+                "resourcePath": "sprites\\s_textbox\\s_textbox.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d75d2fbc-5a7c-4bf7-b5d3-c912c2ce735e",
             "Value": {
                 "id": "57809729-d9d2-4a2b-bbe1-080a643058ad",
