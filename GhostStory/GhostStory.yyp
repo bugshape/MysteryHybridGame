@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "13126d31-6b31-4ceb-81f1-671f80c491c7",
+            "Value": {
+                "id": "df78f06b-98ff-435f-964d-892914fd4fd0",
+                "resourcePath": "objects\\o_lockedAsuspect\\o_lockedAsuspect.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "135c9a78-5112-40f2-b501-75e4df8e6bdf",
             "Value": {
                 "id": "25a86196-7877-4520-873b-10000961901f",
@@ -500,6 +508,14 @@
                 "id": "ce2345a8-a820-4858-868e-56f1bf839d94",
                 "resourcePath": "sprites\\two\\two.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "4a574270-e562-44fc-89ef-aca5aae22da9",
+            "Value": {
+                "id": "82597172-4fa4-4b02-a7dd-6f3b9adcb3bf",
+                "resourcePath": "objects\\o_lockedBsuspect\\o_lockedBsuspect.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1012,6 +1028,14 @@
                 "id": "a6ab9f9a-0093-4577-af21-7061c834aa2b",
                 "resourcePath": "sprites\\suspect_2\\suspect_2.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8d3f4c95-d669-4eea-a434-c17bf1de8b27",
+            "Value": {
+                "id": "97a10713-745c-46e6-8e6c-1c302368743c",
+                "resourcePath": "objects\\o_lockedBgun\\o_lockedBgun.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1796,6 +1820,14 @@
                 "id": "dd154edb-dc44-4373-8afb-0c2c4f46547b",
                 "resourcePath": "views\\ddab2e33-7451-41cf-a4c7-f66ac112ba7a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "de84ff62-50a7-40dc-b819-d7facdc618c7",
+            "Value": {
+                "id": "9e801d03-a23a-4292-b0b3-740e4927834f",
+                "resourcePath": "objects\\o_lockedAgun\\o_lockedAgun.yy",
+                "resourceType": "GMObject"
             }
         },
         {
