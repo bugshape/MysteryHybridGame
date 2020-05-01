@@ -63,14 +63,6 @@
             }
         },
         {
-            "Key": "06a48c9e-2ef7-4a25-93b7-3622697e348e",
-            "Value": {
-                "id": "ff3e8900-5d41-47a2-a3fd-74512d869668",
-                "resourcePath": "sprites\\detective_left\\detective_left.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "0a379e17-8a0d-4000-9940-59e6d60ac5e1",
             "Value": {
                 "id": "f5dec6b7-b54a-4bea-b550-247883f95cbf",
@@ -711,14 +703,6 @@
             }
         },
         {
-            "Key": "5e2acd1f-a2ce-401c-9940-fb6fc3aeab49",
-            "Value": {
-                "id": "f1222ed1-d625-41d1-b733-78a8480151d2",
-                "resourcePath": "sprites\\detective_right\\detective_right.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "5fa43940-de73-44f7-890e-8fb1531d1e55",
             "Value": {
                 "id": "a3f2b20d-7d2d-4083-8787-0e8f1ad30dbc",
@@ -1011,6 +995,14 @@
             "Value": {
                 "id": "48b4795e-4e0a-4ea0-9e80-1b1da0fc5a84",
                 "resourcePath": "sprites\\hidden_door\\hidden_door.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8bdac3d8-e3b8-4efb-875c-00aeb3ae0c0b",
+            "Value": {
+                "id": "16ffc3dc-6797-498f-ba02-20c26ecba44e",
+                "resourcePath": "sprites\\s_detective\\s_detective.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1690,7 +1682,7 @@
             "Key": "cf3432da-8320-47d6-9fd3-a396bba69089",
             "Value": {
                 "id": "61812377-9b1f-46ed-b0f7-71c13a996263",
-                "resourcePath": "objects\\o_mainMenuMusic\\o_mainMenuMusic.yy",
+                "resourcePath": "objects\\o_Music\\o_Music.yy",
                 "resourceType": "GMObject"
             }
         },
