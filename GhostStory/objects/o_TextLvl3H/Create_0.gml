@@ -1,0 +1,9 @@
+spd = 0.25;
+letters = 0;
+// backslash n = line break! :)
+text = "The living often rely on \nthe dead for guidance."
+length = string_length(text);
+text_current = "";
+w = 0;
+h = 0;
+border = 10; 

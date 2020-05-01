@@ -1,7 +1,7 @@
 spd = 0.25;
 letters = 0;
 // backslash n = line break! :)
-text = "this is a test string\nSecond Line"
+text = "Press A and D to move."
 length = string_length(text);
 text_current = "";
 w = 0;

@@ -9,7 +9,7 @@ if i_d == unlock
          {
 			//transition to  one
 			if (ds_map_find_value(async_load, "result") == "2594") {
-				room_goto(r_Level2A);
+				room_goto(r_TransitionA1A);
 			} 
 			//transition to level two
 			else if (ds_map_find_value(async_load, "result") == "gun") {
