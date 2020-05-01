@@ -431,6 +431,14 @@
             }
         },
         {
+            "Key": "37989d4e-06e6-4068-9ee4-5ab9ce20cc14",
+            "Value": {
+                "id": "f53329fe-f663-4a86-a31c-0ea5f0b627df",
+                "resourcePath": "sprites\\s_TeamInfo\\s_TeamInfo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "379facae-6fad-480f-a400-2567d23f2f9b",
             "Value": {
                 "id": "7a42981c-f1c0-4717-bc1d-bf2cf19a4c06",
