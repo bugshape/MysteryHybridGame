@@ -23,6 +23,18 @@ else if (place_meeting(x,y+1,o_brick3)) and (key_jump)
 {
 	vsp = -22;
 }
+else if (place_meeting(x,y+1,o_grass)) and (key_jump)
+{
+	vsp = -22;
+}
+else if (place_meeting(x,y+1,o_DeadGrass)) and (key_jump)
+{
+	vsp = -22;
+}
+else if (place_meeting(x,y+1,o_LightGrass)) and (key_jump)
+{
+	vsp = -22;
+}
 
 //Horizontal Collision
 if (place_meeting(x+hsp,y,o_stone))
